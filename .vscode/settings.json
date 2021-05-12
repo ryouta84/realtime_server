@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "ostream": "c",
+        "inet.h": "c",
+        "realtime_server.h": "c",
+        "stdio.h": "c"
+    }
+}
