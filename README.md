@@ -2,8 +2,9 @@
 
 ## 概要
 
-固定長のデータを送受信するサーバーです。
-TCPを使用しています。
+固定長のデータを送受信するサーバーです。  
+TCPを使用しています。  
+55550番ポートを使用。  
 
 ## 機能
 
@@ -23,4 +24,13 @@ TCPを使用しています。
     int hp;
     float x; // x座標
     float y; // y座標(クライアントではz座標)
+```
+
+## 使用方法
+
+```bash
+// コンパイル
+gcc realtime_server.c -o realtime_server -DDEBUG
+// 参加プレイヤーが二人の場合
+./realtime_server 2
 ```
